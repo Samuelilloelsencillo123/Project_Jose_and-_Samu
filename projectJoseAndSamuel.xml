@@ -1,0 +1,48 @@
+<!DOCTYPE playlist SYSTEM "projectJoseAndSamuel.dtd">
+<!-- <title>Spotify</title> -->
+<playlist>
+    <description>Assorted music playlist.</description>
+    <getting_started>
+        <title>How to use this playlist:</title>
+        <instruction>1. Open your favorite music player.</instruction>
+        <instruction>2. Import or open this XML playlist in your player.</instruction>
+        <instruction>3. Enjoy the selected music.</instruction>
+    </getting_started>
+    <acknowledgments>
+        <title>Acknowledgments:</title>
+        <source>
+            <name>Tutorial on XML and Music Playlists</name>
+            <link>https://www.example.com/xml-tutorial</link>
+        </source>
+        <source>
+            <name>Music Player User Guide</name>
+            <link>https://www.example.com/music-player-guide</link>
+        </source>
+    </acknowledgments>
+    <authors>
+        <title>Authors:</title>
+        <author>
+            <name>John Doe</name>
+            <email>john@example.com</email>
+        </author>
+        <author>
+            <name>Jane Smith</name>
+            <email>jane@example.com</email>
+        </author>
+    </authors>
+    <song>
+        <title>Song 1</title>
+        <artist>Artist 1</artist>
+        <year>2020</year>
+    </song>
+    <song>
+        <title>Song 2</title>
+        <artist>Artist 2</artist>
+        <year>2019</year>
+    </song>
+    <song>
+        <title>Song 3</title>
+        <artist>Artist 3</artist>
+        <year>2021</year>
+    </song>
+</playlist>

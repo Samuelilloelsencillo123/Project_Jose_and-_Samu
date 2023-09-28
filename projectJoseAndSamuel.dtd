@@ -1,0 +1,15 @@
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT playlist (description,getting_started,acknowledgments,authors,song+)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT getting_started (title,instruction+)>
+<!ELEMENT instruction (#PCDATA)>
+<!ELEMENT acknowledgments (title,source+)>
+<!ELEMENT source (name,link)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT link (#PCDATA)>
+<!ELEMENT authors (title,author+)>
+<!ELEMENT author (name,email)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT song (title,artist,year)>
+<!ELEMENT artist (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
